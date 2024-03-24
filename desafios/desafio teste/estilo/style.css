@@ -1,0 +1,179 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco&display=swap');
+@font-face {
+    font-family:'idroid';
+    src: url('../fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+} 
+
+  :root {/* comando para definir variaveis para usar no arquivo inteiro  */
+    --cor0:#E9F0EA;
+    --cor1:#AAF3BC;
+    --cor2:#67C284;
+    --cor3:#36A064;
+    --cor4:#178132;
+    --cor5:#006217;
+
+    --fonte-padrao:Arial,Verdana,Helvetica,sans-serif;
+    --fonte-destaque: 'idroid';
+    --fonte-ellen: 'ellen';
+  } 
+  * {/*seleciona todos os elementos para citar no CSS */
+    padding: 0px;
+    margin: 0px;
+  }
+
+  body {
+    background-color:#f5fccf;
+    font-family: var(--fonte-ellen);
+    
+    padding: 10px;
+  }
+  a.externo::after{
+           content:'\00A0\1F517' ;
+  }
+  
+  header {
+    background-image: linear-gradient(to bottom, var(--cor2) ,var(--cor4) );
+    min-height: 150px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.486);
+  }
+  header > h1{
+    font-family:var(--fonte-ellen);
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 3em;
+    font-weight: normal;
+    
+  }
+  header > p {
+    font-family: var(--fonte-ellen);
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  nav {
+    border-radius: 5px;
+    font-size: 1.2em;
+    
+  }
+  nav > a {
+    color: white;
+    text-decoration: none;
+    padding-inline: 10px;
+    transition-duration: 0,5s;
+    font-weight: bold;
+  }
+  nav >a:hover {
+      
+      border-radius: 5px;
+      background-color: var(--cor3);    
+      
+  }
+  main {
+    background-color: aliceblue;
+    min-width: 280px;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 3px 3px 0px rgba(0, 0, 0, 0.442);
+   }
+   main p>a {
+    background-color: var(--cor1);
+    font-size: large;
+    text-decoration: none;
+
+   }
+  main h1 {
+    font-family: var(--fonte-destaque);
+    color: var(--cor5);
+    font-weight: normal;
+    font-size: 2em;
+  }
+  main h2 {
+    font-family: var(--fonte-destaque);
+    font-weight: 400;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,var(--cor1),rgba(255, 255, 255, 0));
+    
+  }
+  main p {
+    margin: 15px 0px;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1em;
+    font-size: 1.1em;
+  }
+
+  main img {
+    width: 100%;
+  }
+  main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    
+  }
+  div.video {
+    background-color: var(--cor5);
+    padding: 10px 0px;
+    margin: 0px -10px;
+    padding-bottom: 50%;
+    position: relative;
+  }
+  div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    width:100% ;
+    height: 90%;
+  }
+  aside {
+    margin: 20px;
+    background-color: var(--cor1);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.442);
+    
+    
+  }
+  aside h3 {
+   background-color: var(--cor5);
+   color: var(--cor0);
+   padding: 10px;
+   margin: -10px -10px 0px -10px ;
+   border-radius: 5px 5px 0px 0px;
+   
+  }
+  aside ul {
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 3;
+  }
+  aside p {
+   
+  }
+footer {
+  color: var(--cor0);
+  background-color: var(--cor5);
+  text-align: center;
+}
+footer p > a {
+  color: var(--cor0);
+  text-decoration: none;
+  font-size: larger;
+}
+footer p > a:hover{
+  background-color: var(--cor4);
+  border-radius: 5px;
+  text-decoration: underline;
+
+}
+  
+  

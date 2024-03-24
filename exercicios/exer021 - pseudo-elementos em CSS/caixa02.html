@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping TAGs</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(176, 227, 172, 0.403);
+        }
+        header {
+            background-color: rgba(0, 0, 0, 0.200);
+            border-style: solid;
+            margin: 10px;
+            padding: 15px;
+            }
+        
+        nav {
+            background-color: rgba(255, 255, 255, 0.437);
+            padding: 5px;
+            box-shadow: 2px 3px 7px 0.5px rgba(0, 0, 0, 0.329);
+            }
+        nav > a {
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+            color: rgba(30, 110, 190, 0.544); 
+           
+            }
+        nav >a:hover {
+                text-decoration: underline;
+            }
+        main {
+            background-color: rgba(0, 0, 0, 0.200);
+            
+            margin: 8px;
+            padding: 12px;
+            border-radius: 20px 5px;
+            box-shadow: 3px 3px 3px 3px black;
+        }
+        article {
+            background-color: rgba(176, 227, 172, 0.206);
+        }
+        aside {
+            background-color: beige;
+        }
+        footer{
+            background-color: rgb(4, 178, 4);
+            text-align: center;
+            color: white;
+            padding: 5px;
+            margin: 0px;
+            
+        }
+        footer > p {
+            margin: 0px;
+
+        }
+
+        div#bola {
+            height: 150px;
+            width: 150px;
+            background-color: rgb(255, 255, 255);
+            margin: 25px;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header><!--Cabeçario-->
+        <h1>Meu site</h1>
+        
+        <nav ><!-- Menu dentro do cabeçario - navegação-->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main><!--conteúdo principal-->
+        <section id="assuntos"><!--Seção-->
+               
+        </section>
+        <section id="noticias">
+             <article><!-- artigo-->
+                <h2>Noticias sobre o Brasil</h2>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, aut? Ea beatae quam omnis exercitationem rerum accusantium ipsum placeat! Ad nihil id porro culpa aspernatur eius enim nisi aut asperiores!
+                </p>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. In, dignissimos. Facilis, hic ipsum voluptas laboriosam inventore autem error at odit tempora quos, deserunt nesciunt est porro impedit eveniet doloribus repellat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et soluta harum pariatur quam natus, beatae culpa quia provident perspiciatis repellat error rem labore! Quibusdam, tempore? Tempore atque veritatis accusamus nobis.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae, dolorem dolor sint nobis odio natus aliquam totam, quibusdam obcaecati similique necessitatibus expedita? Ratione ipsa accusamus beatae atque magnam autem saepe?</p>
+                
+             </article>
+             <article>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit rem dolorem, esse neque in molestias, officia deserunt quam sed ut labore. Veniam non repellat eius similique, obcaecati amet fuga exercitationem.</p>
+             </article>
+             <aside>
+                    <p>Artigo escrito por Wesley.A</p>
+                </aside>
+
+        </section>
+
+    </main>
+    <footer><!--Rodapé-->
+        <p>Desenvolvido pelo curso em video</p>
+
+    </footer>
+<!-- header,main e footer são todos uma div(são DIVs semãnticas, que contém significado), mas cada um tem uma especificaçao dentro dos mecanismos de busca e ajuda na qualidade do seu site-->
+ <div id="bola"> 
+
+ </div>
+
+
+</body>
+</html>
