@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'Android';
-    src: url(fontes/idroid.otf) format('opentype');
+    src: url('../fontes/idroid.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -17,8 +17,8 @@
             --cor5: #06093d;
             
             --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
-            --fonte-destaque: 'Bebas Neue', cursive;
-            --fonte-android: 'Android', cursive;
+            --fonte-destaque: 'Bebas Neue' ;
+            --fonte-android: 'Android' ;
             }
         body {
             background-color: var(--cor1);
@@ -29,6 +29,7 @@
             font-weight: bolder;
             background-color: var(--cor2);
             font-size: 1em;
+            
         }
         a.externo::after {
             content: '\00A0\1F517';
@@ -49,6 +50,7 @@
         header p {
             color: var(--cor0);
             font-size: 1.3em;
+            
         }
         nav {
                 
