@@ -6,17 +6,27 @@
     <title>Document</title>
     <style>
         body {
-            height: 100vh;
+            height: 100vh; 
+            /*
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
-            background-size: cover;
+            background-attachment: fixed;
+           
+            shorthand - background 
+            color > image > position > repeat > [size]
+            > attachment
+            size ainda nao tem como ser aplicado em shorthand
+            */
             
+            background: black url('imagens/wallpaper002.jpg') center top no-repeat  fixed;
+            background-size: cover;
         }
         main {
             background-color: white;
-            width: 400px;padding: 10px;
+            max-width: 600px;
+            padding: 10px;
             margin: auto;
             border-radius: 20px;
             border: 2px black solid;
@@ -29,6 +39,10 @@
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nesciunt. Sequi magnam odio fugiat aut tempore unde dolorum rerum sit numquam blanditiis labore ipsum est, sapiente optio cupiditate. Re Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident repellat quos dolorum placeat accusamus necessitatibus laborum amet nobis sint delectus numquam pariatur iusto reprehenderit dicta similique, corporis incidunt blanditiis! Reiciendis.
         </p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero porro quos, veniam aperiam nihil corrupti numquam quaerat sapiente voluptatum omnis, eos iusto quidem aut natus fugiat necessitatibus, eaque quam. Eum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis voluptas vero saepe quis sed mollitia voluptates, magnam placeat, consequuntur, aspernatur laudantium. Cupiditate suscipit quam amet commodi magnam esse nulla unde!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero porro quos, veniam aperiam nihil corrupti numquam quaerat sapiente voluptatum omnis, eos iusto quidem aut natus fugiat necessitatibus, eaque quam. Eum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis voluptas vero saepe quis sed mollitia voluptates, magnam placeat, consequuntur, aspernatur laudantium. Cupiditate suscipit quam amet commodi magnam esse nulla unde!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero porro quos, veniam aperiam nihil corrupti numquam quaerat sapiente voluptatum omnis, eos iusto quidem aut natus fugiat necessitatibus, eaque quam. Eum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis voluptas vero saepe quis sed mollitia voluptates, magnam placeat, consequuntur, aspernatur laudantium. Cupiditate suscipit quam amet commodi magnam esse nulla unde!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero porro quos, veniam aperiam nihil corrupti numquam quaerat sapiente voluptatum omnis, eos iusto quidem aut natus fugiat necessitatibus, eaque quam. Eum. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis voluptas vero saepe quis sed mollitia voluptates, magnam placeat, consequuntur, aspernatur laudantium. Cupiditate suscipit quam amet commodi magnam esse nulla unde! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente itaque impedit hic laudantium voluptates saepe quibusdam dolor alias autem deleniti. Consequatur blanditiis delectus, cumque voluptate tempore eligendi recusandae rerum id?Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit distinctio, alias molestiae consectetur accusantium dolorem quas et veritatis nemo, labore deleniti fuga laborum dolore illum fugiat! Vitae laudantium sit </p>
     </main>
 </body>
 </html>
