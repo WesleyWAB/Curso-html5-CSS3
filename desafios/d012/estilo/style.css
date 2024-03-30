@@ -25,10 +25,7 @@ header {
     height: 40%;
     width: 100%;
 }
-p {
-    
-    padding-bottom: 5vw;
-}
+
 header > h1 {
     font-family: var(--fonte2);
     font-size: 10vw;
